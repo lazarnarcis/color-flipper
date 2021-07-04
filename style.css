@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.buttons {
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#button {
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(to right, orange, rgb(236, 49, 49));
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 1s;
+    font-weight: 1000;
+}
+#button:hover {
+    background: linear-gradient(to left, orange, rgb(236, 49, 49));
+    box-shadow: 0px 0px 15px grey;
+}
+#text {
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
